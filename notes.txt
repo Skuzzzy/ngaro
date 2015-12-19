@@ -1,0 +1,9 @@
+32-bit signed integers (cell)
+
+0, 1, ... (cell accessible)
+
+two lifo stacks
+DATA serves as a place for holding data, and passing data between instructions. 128 Cell data stack
+ADDRESS used to hold return addresses from calls, and can be used to temporarily hold small amounts of data. 1024 Cell Address stack
+
+TODO: Write program that converts 32 bit little endian flat file to big endian
