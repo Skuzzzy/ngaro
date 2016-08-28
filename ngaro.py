@@ -4,7 +4,7 @@ class Ngaro():
     def __init__(self):
         self.data = []
         self.address = []
-        self.memory = []
+        self.memory = [0] * 1024
         self.instruction_pointer = 0
         self.op_table = {
                 0 : self.nop,
